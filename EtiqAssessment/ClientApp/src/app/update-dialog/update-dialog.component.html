@@ -1,0 +1,34 @@
+<h1 mat-dialog-title>Update Freelancer</h1>
+<div mat-dialog-content>
+  <form [formGroup]="updateForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Username</mat-label>
+      <input matInput formControlName="username" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Mail</mat-label>
+      <input matInput formControlName="mail" required type="email" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Phone Number</mat-label>
+      <input matInput formControlName="phoneNumber" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Skillsets</mat-label>
+      <input matInput formControlName="skillsets" required />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Hobby</mat-label>
+      <input matInput formControlName="hobby" />
+    </mat-form-field>
+
+    <div class="button-group">
+      <button mat-raised-button color="primary" type="submit">Update</button>
+      <button mat-raised-button color="accent" (click)="onNoClick()">Cancel</button>
+    </div>
+  </form>
+</div>
