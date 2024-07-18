@@ -1,0 +1,17 @@
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/bin/Debug/net8.0/EtiqAssessment.Infrastructure.deps.json
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/bin/Debug/net8.0/EtiqAssessment.Infrastructure.runtimeconfig.json
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/bin/Debug/net8.0/EtiqAssessment.Infrastructure.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/bin/Debug/net8.0/EtiqAssessment.Infrastructure.pdb
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/bin/Debug/net8.0/EtiqAssessment.Domain.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/bin/Debug/net8.0/EtiqAssessment.Domain.pdb
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.csproj.AssemblyReference.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.AssemblyInfoInputs.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.AssemblyInfo.cs
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAsse.8DB369ED.Up2Date
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/refint/EtiqAssessment.Infrastructure.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.pdb
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/EtiqAssessment.Infrastructure.genruntimeconfig.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Infrastructure/obj/Debug/net8.0/ref/EtiqAssessment.Infrastructure.dll

@@ -1,0 +1,15 @@
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.csproj.AssemblyReference.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.AssemblyInfoInputs.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.AssemblyInfo.cs
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.csproj.CoreCompileInputs.cache
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/bin/Debug/net8.0/EtiqAssessment.Application.deps.json
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/bin/Debug/net8.0/EtiqAssessment.Application.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/bin/Debug/net8.0/EtiqAssessment.Application.pdb
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/bin/Debug/net8.0/EtiqAssessment.Domain.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/bin/Debug/net8.0/EtiqAssessment.Domain.pdb
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAsse.2C20FD04.Up2Date
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/refint/EtiqAssessment.Application.dll
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/EtiqAssessment.Application.pdb
+/Users/fakhrulfaiz/Projects/EtiqAssessment/EtiqAssessment.Application/obj/Debug/net8.0/ref/EtiqAssessment.Application.dll
