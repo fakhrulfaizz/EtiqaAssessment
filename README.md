@@ -84,7 +84,7 @@ Git
 Installation
 Clone the repository:
 
-git clone https://github.com/your-username/cdn-complete-developer-network.git
+git clone https://github.com/fakhrulfaizz/EtiqaAssessment.git
 cd cdn-complete-developer-network
 Set up the database:
 Update the connection string in src/EtiqAssessment/appsettings.json.
