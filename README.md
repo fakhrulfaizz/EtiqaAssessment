@@ -1,4 +1,4 @@
-# EtiqaAssessment
+# Etiqa Assessment
  
 CDN - Complete Developer Network
 Overview
@@ -6,31 +6,52 @@ CDN - Complete Developer Network is a fictional company that provides a director
 
 Table of Contents
 
-Technologies Used,
-Architecture
-Getting Started
-Prerequisites
-Installation
-Running the Application
-API Endpoints
-Additional Features
-Testing
-Deployment
-Contributing
-License
 Technologies Used
-ASP.Net Core Web API
-Entity Framework Core
-SQL Server
-Clean Architecture
-Dependency Injection
-JWT for Authentication (Bonus)
-Caching (Bonus)
-Pagination
-Global Error Handling
-Unit and Integration Testing with xUnit
-CI/CD with GitHub Actions
+
 Architecture
+
+Getting Started
+
+Prerequisites
+
+Installation
+
+Running the Application
+
+API Endpoints
+
+Additional Features
+
+Testing
+
+Deployment
+
+Contributing
+
+License
+
+Technologies Used
+
+ASP.Net Core Web API
+
+Entity Framework Core
+
+SQL Server
+
+Clean Architecture
+
+Dependency Injection
+
+Pagination
+
+Global Error Handling
+
+Unit and Integration Testing with xUnit
+
+CI/CD with GitHub Actions
+
+Architecture
+
 The project follows Clean Architecture principles and is divided into the following layers:
 
 Core: Contains the domain entities and repository interfaces.
@@ -41,15 +62,12 @@ Project Structure
 markdown
 
 /src
-  /CDN.Core
-    - Entities
-    - Interfaces
-  /CDN.Application
+  /EtiqAssessment.Application
     - Services
-  /CDN.Infrastructure
+  /EtiqAssessment.Infrastructure
     - Data
     - Repositories
-  /CDN.API
+  /EtiqAssessment
     - Controllers
     - Startup.cs
   /tests
@@ -69,23 +87,23 @@ Clone the repository:
 git clone https://github.com/your-username/cdn-complete-developer-network.git
 cd cdn-complete-developer-network
 Set up the database:
-Update the connection string in src/CDN.API/appsettings.json.
+Update the connection string in src/EtiqAssessment/appsettings.json.
 json
 
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CDNDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Server=localhost,1433;Database=CDNDB;User Id=sa;Password=Inthedoor@1;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=True;MultiSubnetFailover=True;Connection Timeout=30;"
   }
 }
+
 Apply migrations:
 
-
-cd src/CDN.API
+cd src/EtiqAssessment
 dotnet ef database update
 Running the Application
 
 
-cd src/CDN.API
+cd src/EtiqAssessment
 dotnet run
 The API will be available at https://localhost:5001 or http://localhost:5000.
 
@@ -123,10 +141,10 @@ Use xUnit for writing unit and integration tests.
 Testing
 Run the unit and integration tests:
 
-cd tests/CDN.UnitTests
+cd tests/EtiqAssessment.UnitTests
 dotnet test
 
-cd tests/CDN.IntegrationTests
+cd tests/EtiqAssessment.IntegrationTests
 dotnet test
 Deployment
 Deploy the application to a cloud platform like Heroku, AWS, or Azure.
