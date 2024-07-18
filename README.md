@@ -6,7 +6,7 @@ CDN - Complete Developer Network is a fictional company that provides a director
 
 Table of Contents
 
-Technologies Used
+Technologies Used,
 Architecture
 Getting Started
 Prerequisites
@@ -55,7 +55,9 @@ markdown
   /tests
     - CDN.UnitTests
     - CDN.IntegrationTests
+    
 README.md
+
 Getting Started
 Prerequisites
 .NET Core SDK
@@ -63,7 +65,6 @@ SQL Server
 Git
 Installation
 Clone the repository:
-
 
 git clone https://github.com/your-username/cdn-complete-developer-network.git
 cd cdn-complete-developer-network
@@ -118,9 +119,6 @@ Add middleware for global error handling.
 
 Unit and Integration Testing
 Use xUnit for writing unit and integration tests.
-
-CI/CD
-Set up a CI/CD pipeline using GitHub Actions.
 
 Testing
 Run the unit and integration tests:
