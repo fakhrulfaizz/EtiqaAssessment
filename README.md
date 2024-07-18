@@ -5,6 +5,7 @@ Overview
 CDN - Complete Developer Network is a fictional company that provides a directory of freelancers for various jobs. This project is a RESTful API built using ASP.Net Core Web API that supports user registration, deletion, updating, and retrieval. The API connects to a SQL Server database and is designed following Clean Architecture principles.
 
 Table of Contents
+
 Technologies Used
 Architecture
 Getting Started
@@ -38,7 +39,7 @@ Infrastructure: Contains the database context and repository implementations.
 API: Contains the Web API controllers and handles HTTP requests.
 Project Structure
 markdown
-Copy code
+
 /src
   /CDN.Core
     - Entities
@@ -62,27 +63,27 @@ SQL Server
 Git
 Installation
 Clone the repository:
-bash
-Copy code
+
+
 git clone https://github.com/your-username/cdn-complete-developer-network.git
 cd cdn-complete-developer-network
 Set up the database:
 Update the connection string in src/CDN.API/appsettings.json.
 json
-Copy code
+
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=CDNDB;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }
 Apply migrations:
-bash
-Copy code
+
+
 cd src/CDN.API
 dotnet ef database update
 Running the Application
-bash
-Copy code
+
+
 cd src/CDN.API
 dotnet run
 The API will be available at https://localhost:5001 or http://localhost:5000.
@@ -106,8 +107,7 @@ Implement caching for frequently accessed data using in-memory caching or distri
 Pagination
 Add pagination support to the GET endpoint for retrieving users.
 
-csharp
-Copy code
+
 [HttpGet]
 public async Task<ActionResult<IEnumerable<User>>> GetUsers(int pageNumber = 1, int pageSize = 10)
 {
@@ -125,8 +125,6 @@ Set up a CI/CD pipeline using GitHub Actions.
 Testing
 Run the unit and integration tests:
 
-bash
-Copy code
 cd tests/CDN.UnitTests
 dotnet test
 
