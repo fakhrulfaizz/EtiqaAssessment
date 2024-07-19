@@ -1,156 +1,130 @@
-# Etiqa Assessment
- 
-CDN - Complete Developer Network
-Overview
-CDN - Complete Developer Network is a fictional company that provides a directory of freelancers for various jobs. This project is a RESTful API built using ASP.Net Core Web API that supports user registration, deletion, updating, and retrieval. The API connects to a SQL Server database and is designed following Clean Architecture principles.
+# EtiqAssessment
 
-Table of Contents
+EtiqAssessment is a RESTful API built with ASP.Net Core Web API that manages a list of freelancers. The project demonstrates a clean architecture approach and includes CRUD operations for freelancer management.
 
-Technologies Used
+## Features
 
-Architecture
+- Register a new freelancer
+- Update freelancer details
+- Delete a freelancer
+- Get a list of freelancers
+- Pagination, Error Handling, and Input Validation
+- CORS enabled for cross-origin requests
 
-Getting Started
+## Technologies Used
 
-Prerequisites
+- ASP.Net Core Web API
+- Entity Framework Core
+- SQL Server (running in Docker)
+- Angular for front-end
+- Swagger for API documentation
+- Clean Architecture principles
 
-Installation
+## Getting Started
 
-Running the Application
+### Prerequisites
 
-API Endpoints
+- [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core)
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
+- [Docker](https://www.docker.com/)
 
-Additional Features
+### Setting Up the Backend
 
-Testing
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/EtiqAssessment.git
+    cd EtiqAssessment
+    ```
 
-Deployment
+2. Build and run the SQL Server container:
+    ```bash
+    docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Inthedoor@1' -p 1433:1433 --name sqlserver -d mcr.microsoft.com/mssql/server:2019-latest
+    ```
 
-Contributing
+3. Set up the database:
+    - Ensure your connection string in `appsettings.json` is correct.
+    - Apply migrations and update the database:
+      ```bash
+      dotnet ef database update
+      ```
 
-License
+4. Run the backend:
+    ```bash
+    dotnet run --project EtiqAssessment.API
+    ```
 
-Technologies Used
+5. Open your browser and navigate to `http://localhost:5000/swagger` to see the Swagger UI.
 
-ASP.Net Core Web API
+### Setting Up the Frontend
 
-Entity Framework Core
+1. Navigate to the Angular project directory:
+    ```bash
+    cd EtiqAssessment.Angular
+    ```
 
-SQL Server
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-Clean Architecture
+3. Run the Angular development server:
+    ```bash
+    ng serve
+    ```
 
-Dependency Injection
+4. Open your browser and navigate to `http://localhost:4200` to see the frontend application.
 
-Pagination
+## API Endpoints
 
-Global Error Handling
+### Freelancers
 
-Unit and Integration Testing with xUnit
+- `GET /api/freelancers`: Get a list of freelancers.
+- `POST /api/freelancers`: Create a new freelancer.
+- `PUT /api/freelancers/{id}`: Update a freelancer.
+- `DELETE /api/freelancers/{id}`: Delete a freelancer.
 
-CI/CD with GitHub Actions
+## Directory Structure
 
-Architecture
-
-The project follows Clean Architecture principles and is divided into the following layers:
-
-Core: Contains the domain entities and repository interfaces.
-Application: Contains the application services (use cases).
-Infrastructure: Contains the database context and repository implementations.
-API: Contains the Web API controllers and handles HTTP requests.
-Project Structure
-markdown
-
-/src
-  /EtiqAssessment.Application
-    - Services
-  /EtiqAssessment.Infrastructure
-    - Data
-    - Repositories
-  /EtiqAssessment
-    - Controllers
-    - Startup.cs
-  /tests
-    - CDN.UnitTests
-    - CDN.IntegrationTests
-    
-README.md
-
-Getting Started
-Prerequisites
-.NET Core SDK
-SQL Server
-Git
-Installation
-Clone the repository:
-
-git clone https://github.com/fakhrulfaizz/EtiqaAssessment.git
-cd cdn-complete-developer-network
-Set up the database:
-Update the connection string in src/EtiqAssessment/appsettings.json.
-json
-
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost,1433;Database=CDNDB;User Id=sa;Password=Inthedoor@1;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=True;MultiSubnetFailover=True;Connection Timeout=30;"
-  }
-}
-
-Apply migrations:
-
-cd src/EtiqAssessment
-dotnet ef database update
-Running the Application
-
-
-cd src/EtiqAssessment
-dotnet run
-The API will be available at https://localhost:5001 or http://localhost:5000.
-
-API Endpoints
-GET /api/users: Retrieve all users.
-GET /api/users/{id}: Retrieve a user by ID.
-POST /api/users: Register a new user.
-PUT /api/users/{id}: Update an existing user.
-DELETE /api/users/{id}: Delete a user by ID.
-Additional Features
-Client-side Development
-A simple front-end application built with Angular or React can be created to interact with the API.
-
-Securing the Endpoint
-Use JWT authentication to secure the endpoints.
-
-Caching Strategy
-Implement caching for frequently accessed data using in-memory caching or distributed caching.
-
-Pagination
-Add pagination support to the GET endpoint for retrieving users.
+EtiqAssessment/
+│
+├── EtiqAssessment/
+│ ├── Controllers/
+│ ├── Models/
+│ ├── Services/
+│ └── ...
+│
+├── EtiqAssessment.Application/
+│ ├── Interfaces/
+│ ├── Services/
+│ └── ...
+│
+├── EtiqAssessment.Domain/
+│ ├── Entities/
+│ ├── Interfaces/
+│ └── ...
+│
+├── EtiqAssessment.Infrastructure/
+│ ├── Data/
+│ ├── Repositories/
+│ └── ...
+│
+├── EtiqAssessment.Angular/
+│ ├── src/
+│ │ ├── app/
+│ │ │ ├── components/
+│ │ │ ├── services/
+│ │ │ └── ...
+│ └── ...
+│
+└── README.md
 
 
-[HttpGet]
-public async Task<ActionResult<IEnumerable<User>>> GetUsers(int pageNumber = 1, int pageSize = 10)
-{
-    return Ok(await _userService.GetAllUsersAsync(pageNumber, pageSize));
-}
-Global Error Handling
-Add middleware for global error handling.
+## Contributing
 
-Unit and Integration Testing
-Use xUnit for writing unit and integration tests.
+If you want to contribute to this project, please fork the repository and create a pull request.
 
-Testing
-Run the unit and integration tests:
+## License
 
-cd tests/EtiqAssessment.UnitTests
-dotnet test
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-cd tests/EtiqAssessment.IntegrationTests
-dotnet test
-Deployment
-Deploy the application to a cloud platform like Heroku, AWS, or Azure.
-
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-License
-This project is licensed under the MIT License.
