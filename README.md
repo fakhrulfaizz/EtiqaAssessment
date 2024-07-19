@@ -86,39 +86,38 @@ EtiqAssessment is a RESTful API built with ASP.Net Core Web API that manages a l
 
 ## Directory Structure
 
-EtiqAssessment/
-│
-├── EtiqAssessment/
-│ ├── Controllers/
-│ ├── Models/
-│ ├── Services/
-│ └── ...
-│
-├── EtiqAssessment.Application/
-│ ├── Interfaces/
-│ ├── Services/
-│ └── ...
-│
-├── EtiqAssessment.Domain/
-│ ├── Entities/
-│ ├── Interfaces/
-│ └── ...
-│
-├── EtiqAssessment.Infrastructure/
-│ ├── Data/
-│ ├── Repositories/
-│ └── ...
-│
-├── EtiqAssessment.Angular/
-│ ├── src/
-│ │ ├── app/
-│ │ │ ├── components/
-│ │ │ ├── services/
-│ │ │ └── ...
-│ └── ...
-│
-└── README.md
-
+EtiqAssessment/&nbsp;&nbsp;&nbsp;&nbsp;  
+│  
+├── EtiqAssessment.API/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Controllers/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Models/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Services/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│  
+├── EtiqAssessment.Application/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Interfaces/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Services/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│  
+├── EtiqAssessment.Domain/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Entities/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Interfaces/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│  
+├── EtiqAssessment.Infrastructure/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Data/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Repositories/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│  
+├── EtiqAssessment.Angular/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── app/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── components/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── services/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│  
+└── README.md  
 
 ## Contributing
 
