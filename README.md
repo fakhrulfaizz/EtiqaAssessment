@@ -88,11 +88,16 @@ EtiqAssessment is a RESTful API built with ASP.Net Core Web API that manages a l
 
 EtiqAssessment/&nbsp;&nbsp;&nbsp;&nbsp;  
 │  
-├── EtiqAssessment.API/  
+├── EtiqAssessment/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Controllers/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Models/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Services/  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── CleanApp/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── app/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── components/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── services/  
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
 │  
 ├── EtiqAssessment.Application/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Interfaces/  
@@ -108,14 +113,7 @@ EtiqAssessment/&nbsp;&nbsp;&nbsp;&nbsp;
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Data/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Repositories/  
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
-│  
-├── EtiqAssessment.Angular/  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src/  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── app/  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── components/  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── services/  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ...  
+│    
 │  
 └── README.md  
 
