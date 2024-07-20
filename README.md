@@ -33,7 +33,7 @@ EtiqAssessment is a RESTful API built with ASP.Net Core Web API that manages a l
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/EtiqAssessment.git
+    git clone https://github.com/fakhrulfaizz/EtiqAssessment.git
     cd EtiqAssessment
     ```
 
